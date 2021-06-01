@@ -1,5 +1,3 @@
-from re import X
-import tensorflow as tf
 import uuid
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -67,10 +65,10 @@ def predict_diabetes():
         if diabetes_prediction <= float(0.3):
             a   =   ("Resiko diabetes rendah")
             output_inword = a
-        if diabetes_prediction <= float(0.7):
+        elif diabetes_prediction <= float(0.7):
             b   =   ("Resiko diabetes Sedang, mohon periksa ke Rumah Sakit terdekat")
             output_inword = b
-        if diabetes_prediction <= float(1):
+        elif diabetes_prediction <= float(1):
             c = ("Resiko diabetes TINGGI, mohon segera lakukan pemeriksaan ke Rumah Sakit terdekat")
             output_inword = c
 
