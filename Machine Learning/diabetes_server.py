@@ -63,7 +63,20 @@ def predict_diabetes():
 
         predict = model.predict(x)
         diabetes_prediction = float(predict[0])
-        response = {"id":str(uuid.uuid4()), "Diabetes Prediction":diabetes_prediction}
+
+        if diabetes_prediction <= float(0.3):
+            a   =   ("Resiko diabetes rendah")
+            output_inword = a
+        if diabetes_prediction <= float(0.7):
+            b   =   ("Resiko diabetes Sedang, mohon periksa ke Rumah Sakit terdekat")
+            output_inword = b
+        if diabetes_prediction <= float(1):
+            c = ("Resiko diabetes TINGGI, mohon segera lakukan pemeriksaan ke Rumah Sakit terdekat")
+            output_inword = c
+
+        response = {"id":str(uuid.uuid4()), "Diabetes Prediction":diabetes_prediction, "Opinion":str(output_inword)}
+
+
     else:
         #Return Errors
         response = {"id":str(uuid.uuid4())}
