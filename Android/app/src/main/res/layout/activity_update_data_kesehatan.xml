@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.home.UpdateDataKesehatanActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Update Data Kesehatan"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrowback" />
+
+    <TextView
+        android:id="@+id/kesehatanFisik"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_updatebox"
+        android:drawableEnd="@drawable/ic_next"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Kesehatan Fisik"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/kesehatanJantung"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_updatebox_invalid"
+        android:drawableEnd="@drawable/ic_next"
+        android:drawableTint="@color/black"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Kesehatan Jantung"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kesehatanFisik" />
+
+    <TextView
+        android:id="@+id/kesehatanMata"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_updatebox_invalid"
+        android:drawableEnd="@drawable/ic_next"
+        android:drawableTint="@color/black"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Kesehatan Mata"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kesehatanJantung" />
+
+    <TextView
+        android:id="@+id/kesehatanMulutdanGigi"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_updatebox_invalid"
+        android:drawableEnd="@drawable/ic_next"
+        android:drawableTint="@color/black"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Kesehatan Mulut dan Gigi"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kesehatanMata" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.more.MoreFragment">
+
+    <TextView
+        android:id="@+id/infoAplikasi"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_updatebox"
+        android:drawableEnd="@drawable/ic_next"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Info Aplikasi"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/hubungikami"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_updatebox"
+        android:drawableEnd="@drawable/ic_next"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Hubungi Kami"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/infoAplikasi" />
+
+    <TextView
+        android:id="@+id/keluar"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/ic_updatebox"
+        android:drawableEnd="@drawable/ic_next"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center_vertical"
+        android:padding="16dp"
+        android:text="Keluar"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hubungikami" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

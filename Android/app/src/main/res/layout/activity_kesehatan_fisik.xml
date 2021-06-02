@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.check.KesehatanFisikActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Data Kesehatan Fisik"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_arrowback" />
+
+    <TextView
+        android:id="@+id/tvTinggiBadan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:drawableStart="@drawable/ic_check"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Tinggi Badan (cm)"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title" />
+
+    <TextView
+        android:id="@+id/isiTinggiBadan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="167"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvTinggiBadan" />
+
+    <TextView
+        android:id="@+id/tvBeratBadan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_check"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Berat Badan (kg)"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTinggiBadan" />
+
+    <TextView
+        android:id="@+id/isiBeratBadan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="54"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvBeratBadan" />
+
+    <TextView
+        android:id="@+id/tvTekananDarah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_warning"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Tekanan Darah (mmHg)"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBeratBadan" />
+
+    <TextView
+        android:id="@+id/isiTekananDarah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="130/82"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvTekananDarah" />
+
+    <TextView
+        android:id="@+id/tvGlukosaDarah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_warning"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Tekanan Darah (mmHg)"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTekananDarah" />
+
+    <TextView
+        android:id="@+id/isiGlukosaDarah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="130/82"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvGlukosaDarah" />
+
+    <TextView
+        android:id="@+id/tvBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_warning"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="BMI"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvGlukosaDarah" />
+
+    <TextView
+        android:id="@+id/isiBMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="19,36"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvBMI" />
+
+    <TextView
+        android:id="@+id/tvKehamilan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_warning"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Jumlah Kehamilan"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvBMI" />
+
+    <TextView
+        android:id="@+id/isiKehamilan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="0"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvKehamilan" />
+
+    <TextView
+        android:id="@+id/tvKetebalanKulit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_warning"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Ketebalan Kulit"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvKehamilan" />
+
+    <TextView
+        android:id="@+id/isiKetebalanKulit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="23"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvKetebalanKulit" />
+
+    <TextView
+        android:id="@+id/tvInsulin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/ic_warning"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="Insulin"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvKetebalanKulit" />
+
+    <TextView
+        android:id="@+id/isiInsulin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="65"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvInsulin" />
+
+    <TextView
+        android:id="@+id/catatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Catatan"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvInsulin" />
+
+    <ImageView
+        android:id="@+id/line"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/ic_line"
+        app:layout_constraintBottom_toBottomOf="@+id/catatan"
+        app:layout_constraintStart_toEndOf="@+id/catatan"
+        app:layout_constraintTop_toTopOf="@+id/catatan" />
+
+    <TextView
+        android:id="@+id/note1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="- Tekanan darah diatas normal"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catatan" />
+
+    <TextView
+        android:id="@+id/note2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/poppins_light"
+        android:text="- Kadar gula darah diatas normal"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/note1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
