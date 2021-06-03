@@ -20,10 +20,14 @@ class HomeFragment : Fragment(), View.OnClickListener {
 
     private lateinit var binding: FragmentHomeBinding
     override fun onCreateView(
+
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        // inget dihapus
+        print("hello world")
+
         binding = FragmentHomeBinding.inflate(layoutInflater, container, false)
         homeViewModel =
             ViewModelProvider(this).get(HomeViewModel::class.java)
@@ -31,6 +35,8 @@ class HomeFragment : Fragment(), View.OnClickListener {
         binding.updatedata.setOnClickListener(this)
         binding.rv1.setOnClickListener(this)
         return binding.root
+
+
     }
 
     override fun onClick(v: View?) {
