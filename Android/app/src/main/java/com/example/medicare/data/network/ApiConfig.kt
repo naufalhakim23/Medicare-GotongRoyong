@@ -1,4 +1,4 @@
-package com.example.medicare.network
+package com.example.medicare.data.network
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -14,7 +14,7 @@ class ApiConfig {
                 .addInterceptor(loggingInterceptor)
                 .build()
             val retrofit = Retrofit.Builder()
-                .baseUrl("http://baseurl.com/") // TODO: 1. Nanti diganti sesuai dengan endpoint, tapi tanpa BaseUrl
+                .baseUrl("https://hale-facet-314105.et.r.appspot.com/") // TODO: 1. Nanti diganti sesuai dengan endpoint, tapi tanpa BaseUrl
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build()

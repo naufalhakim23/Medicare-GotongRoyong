@@ -4,9 +4,9 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.medicare.network.ApiConfig
-import com.example.medicare.network.DiabetesData
-import com.example.medicare.network.DiabetesPrediction
+import com.example.medicare.data.network.ApiConfig
+import com.example.medicare.data.network.DiabetesData
+import com.example.medicare.data.network.DiabetesPrediction
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
