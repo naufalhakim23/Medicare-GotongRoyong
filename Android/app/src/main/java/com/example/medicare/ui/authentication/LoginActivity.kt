@@ -18,11 +18,15 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
         binding.btnLogin.setOnClickListener(this)
         binding.backToSignup.setOnClickListener(this)
+
+
+
     }
 
     override fun onClick(v: View?) {
         when(v){
             binding.btnLogin -> {
+
                 val i = Intent(this@LoginActivity, MainActivity::class.java)
                 startActivity(i)
                 finish()
