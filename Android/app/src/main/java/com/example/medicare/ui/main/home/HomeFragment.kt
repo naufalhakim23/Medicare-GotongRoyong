@@ -26,7 +26,7 @@ class HomeFragment : Fragment(), View.OnClickListener {
         savedInstanceState: Bundle?
     ): View? {
         // inget dihapus
-        print("hello world")
+//        print("hello world")
 
         binding = FragmentHomeBinding.inflate(layoutInflater, container, false)
         homeViewModel =
