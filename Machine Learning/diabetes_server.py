@@ -60,7 +60,8 @@ def predict_diabetes():
         x   =   x.reshape(1,7,1)
 
         predict = model.predict(x)
-        diabetes_prediction = float(predict[0])
+        diabetes_prediction = float((predict[0]))
+        diabetesinto_double = float("{:.2f}".format(round(diabetes_prediction*100, 2)))
 
         if diabetes_prediction <= float(0.3):
             a   =   ("Resiko diabetes rendah")
@@ -72,12 +73,14 @@ def predict_diabetes():
             c = ("Resiko diabetes TINGGI, mohon segera lakukan pemeriksaan ke Rumah Sakit terdekat")
             output_inword = c
 
-        response = {"id":str(uuid.uuid4()), "Diabetes Prediction":diabetes_prediction, "Opinion":str(output_inword)}
+        response = {"Diabetes Prediction":diabetesinto_double, "Opinion":str(output_inword)}
 
 
     else:
         #Return Errors
-        response = {"id":str(uuid.uuid4())}
+        response = {}
+
+
 
     
     return jsonify(response)
