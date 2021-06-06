@@ -17,11 +17,13 @@ class KesehatanFisikActivity : AppCompatActivity() {
 
         val model: KesehatanFisikViewModel by viewModels()
         model.diabetesPrediction.observe(this, {
-            val percentage = it.diabetesPrediction*100
+            val percentage = it.diabetPredic
             findViewById<TextView>(R.id.note1).text= "$percentage%"
 
             findViewById<TextView>(R.id.note2).text= it.opinion
         })
+
+        model.postDiabetesData(394,23.8,2.3,2.9,310.2,3.9,13.2,3,20)
 
     }
 }

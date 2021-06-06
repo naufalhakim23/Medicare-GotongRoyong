@@ -9,15 +9,15 @@ class ApiConfig {
     companion object {
         fun getApiService(): ApiService {
             val loggingInterceptor =
-                HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
+                    HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY)
             val client = OkHttpClient.Builder()
-                .addInterceptor(loggingInterceptor)
-                .build()
+                    .addInterceptor(loggingInterceptor)
+                    .build()
             val retrofit = Retrofit.Builder()
-                .baseUrl("https://hale-facet-314105.et.r.appspot.com/") // TODO: 1. Nanti diganti sesuai dengan endpoint, tapi tanpa BaseUrl
-                .addConverterFactory(GsonConverterFactory.create())
-                .client(client)
-                .build()
+                    .baseUrl("https://hale-facet-314105.et.r.appspot.com/") // TODO: 1. Nanti diganti sesuai dengan endpoint, tapi tanpa BaseUrl
+                    .addConverterFactory(GsonConverterFactory.create())
+                    .client(client)
+                    .build()
             return retrofit.create(ApiService::class.java)
         }
     }

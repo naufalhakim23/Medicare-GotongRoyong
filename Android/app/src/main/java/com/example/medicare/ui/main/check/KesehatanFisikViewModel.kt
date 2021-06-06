@@ -16,19 +16,37 @@ class KesehatanFisikViewModel : ViewModel() {
     private val _diabetesPrediction = MutableLiveData<DiabetesPrediction>()
     val diabetesPrediction: LiveData<DiabetesPrediction> = _diabetesPrediction
 
-    private val _isLoading = MutableLiveData<Boolean>()
-    val isLoading: LiveData<Boolean> = _isLoading
-
     companion object {
         private const val TAG = "MainViewModel"
     }
 
-    fun getDiabetesPrediction(diabetesData: DiabetesData) {
-        _isLoading.value = true
-        val client = ApiConfig.getApiService().postDiabetesData(diabetesData)
+    fun postDiabetesData(
+            nik: Long,
+            bmi: Double,
+            sistole: Double,
+            diastole: Double,
+            glukosa: Double,
+            jumlahKehamilan: Double,
+            ketebalanKulit: Double,
+            insulin: Int,
+            age: Int
+    ) {
+        val client = ApiConfig.getApiService().postDiabetesData(
+                nik,
+                bmi,
+                sistole,
+                diastole,
+                glukosa,
+                jumlahKehamilan,
+                ketebalanKulit,
+                insulin,
+                age
+        )
         client.enqueue(object : Callback<DiabetesPrediction> {
-            override fun onResponse(call: Call<DiabetesPrediction>, response: Response<DiabetesPrediction>) {
-                _isLoading.value = false
+            override fun onResponse(
+                    call: Call<DiabetesPrediction>,
+                    response: Response<DiabetesPrediction>
+            ) {
                 if (response.isSuccessful) {
                     _diabetesPrediction.postValue(response.body())
                 } else {
@@ -37,7 +55,6 @@ class KesehatanFisikViewModel : ViewModel() {
             }
 
             override fun onFailure(call: Call<DiabetesPrediction>, t: Throwable) {
-                _isLoading.value = false
                 Log.e(TAG, "onFailure: ${t.message.toString()}")
             }
         })

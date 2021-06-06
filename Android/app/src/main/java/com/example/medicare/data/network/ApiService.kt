@@ -7,11 +7,16 @@ import retrofit2.http.POST
 import retrofit2.http.Query
 
 interface ApiService {
-    @POST("updateData") // TODO: 2. Nanti diganti sesuai dengan endpoint, tapi tanpa BaseUrl
+    @GET("/updateData") // TODO: 2. Nanti diganti sesuai dengan endpoint, tapi tanpa BaseUrl
     fun postDiabetesData(
-        @Body diabetesData: DiabetesData
+            @Query("NIK") nik : Long,
+            @Query("BMI") bmi : Double,
+            @Query("sistole") sistole : Double,
+            @Query("diastole") diastole : Double,
+            @Query("glukosa") glukosa : Double,
+            @Query("jumlahKehamilan") jumlahKehamilan : Double,
+            @Query("ketebalanKulit") ketebalanKulit : Double,
+            @Query("insulin") insulin : Int,
+            @Query("age") age : Int
     ) : Call<DiabetesPrediction>
-
-
-
 }
