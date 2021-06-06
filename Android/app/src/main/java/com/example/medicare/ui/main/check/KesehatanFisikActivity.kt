@@ -23,7 +23,7 @@ class KesehatanFisikActivity : AppCompatActivity() {
             findViewById<TextView>(R.id.note2).text= it.opinion
         })
 
-        model.postDiabetesData(394,23.8,2.3,2.9,310.2,3.9,13.2,3,20)
+        model.postDiabetesData(394,23.8,2.3,2.9,10.2,3.9,13.2,3,20)
 
     }
 }
