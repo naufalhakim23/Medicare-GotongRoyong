@@ -1,5 +1,3 @@
-# Medicare-GotongRoyong
-
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -36,7 +34,7 @@
   <p align="center">
     Digital Medical Records and Predicting Risks of Diabetes one of many Chronic Diseases through mobile apps, cloud computing, and machine learning
     <br />
-    <a href="https://github.com/naufalhakim23/Medicare-GotongRoyong"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/naufalhakim23/Medicare-GotongRoyong">
     <br />
     <br />
     <a href="https://github.com/naufalhakim23/Medicare-GotongRoyong">View Demo</a>
