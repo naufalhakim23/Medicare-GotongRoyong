@@ -15,18 +15,18 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+[![Contributors][contributors-shield]][https://github.com/naufalhakim23/Medicare-GotongRoyong/graphs/contributors]
+[![Forks][forks-shield]][https://github.com/naufalhakim23/Medicare-GotongRoyong/network/members]
+[![Stargazers][stars-shield]][https://github.com/naufalhakim23/Medicare-GotongRoyong/stargazers]
+[![Issues][issues-shield]][https://github.com/naufalhakim23/Medicare-GotongRoyong/issues]
 
 
 
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/naufalhakim23/Medicare-GotongRoyong">
+    <img src="images/medicarelogo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Medicare</h3>
