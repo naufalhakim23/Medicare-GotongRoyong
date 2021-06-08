@@ -28,7 +28,7 @@ class KesehatanFisikViewModel : ViewModel() {
             glukosa: Double,
             jumlahKehamilan: Double,
             ketebalanKulit: Double,
-            insulin: Int,
+            insulin: Double,
             age: Int
     ) {
         val client = ApiConfig.getApiService().postDiabetesData(
@@ -59,4 +59,6 @@ class KesehatanFisikViewModel : ViewModel() {
             }
         })
     }
+
+
 }

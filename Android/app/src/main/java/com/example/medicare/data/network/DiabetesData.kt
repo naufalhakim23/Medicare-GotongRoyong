@@ -1,8 +1,11 @@
 package com.example.medicare.data.network
 
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
+@Parcelize
 data class DiabetesData(
     @SerializedName("age")
     val age: Int,
@@ -15,11 +18,11 @@ data class DiabetesData(
     @SerializedName("glukosa")
     val glukosa: Double,
     @SerializedName("insulin")
-    val insulin: Int,
+    val insulin: Double,
     @SerializedName("jumlahKehamilan")
     val jumlahKehamilan: Double,
     @SerializedName("ketebalanKulit")
     val ketebalanKulit: Double,
     @SerializedName("NIK")
-    val NIK: Int
-)
+    val NIK: Long
+) :Parcelable

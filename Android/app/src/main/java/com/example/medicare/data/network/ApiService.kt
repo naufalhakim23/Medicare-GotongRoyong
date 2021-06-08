@@ -16,7 +16,7 @@ interface ApiService {
             @Query("glukosa") glukosa : Double,
             @Query("jumlahKehamilan") jumlahKehamilan : Double,
             @Query("ketebalanKulit") ketebalanKulit : Double,
-            @Query("insulin") insulin : Int,
+            @Query("insulin") insulin : Double,
             @Query("age") age : Int
     ) : Call<DiabetesPrediction>
 }

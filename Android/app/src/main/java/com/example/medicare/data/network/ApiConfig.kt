@@ -4,6 +4,8 @@ import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import java.util.concurrent.TimeUnit
+
 
 class ApiConfig {
     companion object {
@@ -13,12 +15,16 @@ class ApiConfig {
             val client = OkHttpClient.Builder()
                     .addInterceptor(loggingInterceptor)
                     .build()
+
+
+
             val retrofit = Retrofit.Builder()
                     .baseUrl("https://hale-facet-314105.et.r.appspot.com/") // TODO: 1. Nanti diganti sesuai dengan endpoint, tapi tanpa BaseUrl
                     .addConverterFactory(GsonConverterFactory.create())
                     .client(client)
                     .build()
             return retrofit.create(ApiService::class.java)
+
         }
     }
 }

@@ -30,7 +30,7 @@
         app:srcCompat="@drawable/ic_arrowback" />
 
     <TextView
-        android:id="@+id/tvTinggiBadan"
+        android:id="@+id/tvDiastole"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -38,14 +38,14 @@
         android:drawableStart="@drawable/ic_check"
         android:drawablePadding="16dp"
         android:fontFamily="@font/poppins_light"
-        android:text="Tinggi Badan (cm)"
+        android:text="Diastole"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <TextView
-        android:id="@+id/isiTinggiBadan"
+        android:id="@+id/isiDiastole"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
@@ -54,10 +54,10 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvTinggiBadan" />
+        app:layout_constraintTop_toTopOf="@+id/tvDiastole" />
 
     <TextView
-        android:id="@+id/tvBeratBadan"
+        android:id="@+id/tvSistole"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -65,14 +65,14 @@
         android:drawableStart="@drawable/ic_check"
         android:drawablePadding="16dp"
         android:fontFamily="@font/poppins_light"
-        android:text="Berat Badan (kg)"
+        android:text="Sistole"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTinggiBadan" />
+        app:layout_constraintTop_toBottomOf="@+id/tvDiastole" />
 
     <TextView
-        android:id="@+id/isiBeratBadan"
+        android:id="@+id/isiSistole"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
@@ -81,10 +81,10 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvBeratBadan" />
+        app:layout_constraintTop_toTopOf="@+id/tvSistole" />
 
     <TextView
-        android:id="@+id/tvTekananDarah"
+        android:id="@+id/tvAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -92,14 +92,14 @@
         android:drawableStart="@drawable/ic_warning"
         android:drawablePadding="16dp"
         android:fontFamily="@font/poppins_light"
-        android:text="Tekanan Darah (mmHg)"
+        android:text="Umur"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvBeratBadan" />
+        app:layout_constraintTop_toBottomOf="@+id/tvSistole" />
 
     <TextView
-        android:id="@+id/isiTekananDarah"
+        android:id="@+id/isiUmur"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="32dp"
@@ -108,7 +108,7 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/tvTekananDarah" />
+        app:layout_constraintTop_toTopOf="@+id/tvAge" />
 
     <TextView
         android:id="@+id/tvGlukosaDarah"
@@ -119,11 +119,11 @@
         android:drawableStart="@drawable/ic_warning"
         android:drawablePadding="16dp"
         android:fontFamily="@font/poppins_light"
-        android:text="Tekanan Darah (mmHg)"
+        android:text="Glukosa Darah"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTekananDarah" />
+        app:layout_constraintTop_toBottomOf="@+id/tvAge" />
 
     <TextView
         android:id="@+id/isiGlukosaDarah"

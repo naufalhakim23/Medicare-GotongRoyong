@@ -30,7 +30,7 @@
         app:srcCompat="@drawable/ic_arrowback" />
 
     <EditText
-        android:id="@+id/inputTinggi"
+        android:id="@+id/inputAge"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -39,7 +39,7 @@
         android:background="@drawable/round_border"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="Tinggi Badan (cm)"
+        android:hint="Umur"
         android:inputType="textEmailAddress"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +47,7 @@
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <EditText
-        android:id="@+id/inputBeratBadan"
+        android:id="@+id/inputBMI"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -56,11 +56,11 @@
         android:background="@drawable/round_border"
         android:drawablePadding="16dp"
         android:ems="10"
-        android:hint="Berat Badan (kg)"
+        android:hint="Body Mass Index"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputTinggi" />
+        app:layout_constraintTop_toBottomOf="@+id/inputAge" />
 
     <EditText
         android:id="@+id/inputSistole"
@@ -74,7 +74,7 @@
         android:padding="16dp"
         app:layout_constraintEnd_toStartOf="@id/inputDiastole"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputBeratBadan" />
+        app:layout_constraintTop_toBottomOf="@+id/inputBMI" />
 
     <EditText
         android:id="@+id/inputDiastole"
@@ -87,7 +87,7 @@
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/inputSistole"
-        app:layout_constraintTop_toBottomOf="@+id/inputBeratBadan" />
+        app:layout_constraintTop_toBottomOf="@+id/inputBMI" />
 
     <EditText
         android:id="@+id/inputGlukosa"

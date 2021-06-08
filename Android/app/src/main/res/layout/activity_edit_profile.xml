@@ -30,7 +30,7 @@
         app:srcCompat="@drawable/ic_arrowback" />
 
     <EditText
-        android:id="@+id/inputTinggi"
+        android:id="@+id/inputAge"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -48,7 +48,7 @@
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <EditText
-        android:id="@+id/inputBeratBadan"
+        android:id="@+id/inputBMI"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
@@ -63,7 +63,7 @@
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputTinggi" />
+        app:layout_constraintTop_toBottomOf="@+id/inputAge" />
 
     <EditText
         android:id="@+id/inputSistole"
@@ -81,7 +81,7 @@
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputBeratBadan" />
+        app:layout_constraintTop_toBottomOf="@+id/inputBMI" />
 
     <EditText
         android:id="@+id/inputGlukosa"
