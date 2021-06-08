@@ -56,6 +56,7 @@
 <p float="left">
   <img src="https://github.com/naufalhakim23/Medicare-GotongRoyong/blob/main/images/main_screen.jpeg" width="270" height="540">
   <img src="https://github.com/naufalhakim23/Medicare-GotongRoyong/blob/main/images/homescreen.jpeg" width="270" height="540">
+  <img src="https://github.com/naufalhakim23/Medicare-GotongRoyong/blob/main/images/healthdata.jpeg" width="270" height="540">
 </p>
 
 medicare, a smart database that let you predict what is going on with your body, did you Indonesian people still lazy to check their health up to a hospital and even don't know anything about their body until some disease came to attack them, and even if they do where do they save their medical file if something happen should they always have their files with them it is a hassle right?. So we simply help you with a touch your finger and predict what percentage your going to get of illness
