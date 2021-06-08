@@ -53,9 +53,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-![WhatsApp Image 2021-06-08 at 10 48 06 PM](https://user-images.githubusercontent.com/64422494/121218631-1c063b80-c8ad-11eb-9f7b-c5c220affad4.jpeg=250x400)
-
+<img src="https://github.com/naufalhakim23/Medicare-GotongRoyong/blob/main/images/main_screen.jpeg" width="250" height="400">
+<img src="https://github.com/naufalhakim23/Medicare-GotongRoyong/blob/main/images/homescreen.jpeg" width="250" height="400">
 
 medicare, a smart database that let you predict what is going on with your body, did you Indonesian people still lazy to check their health up to a hospital and even don't know anything about their body until some disease came to attack them, and even if they do where do they save their medical file if something happen should they always have their files with them it is a hassle right?. So we simply help you with a touch your finger and predict what percentage your going to get of illness
 
