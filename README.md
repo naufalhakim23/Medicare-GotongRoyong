@@ -99,17 +99,24 @@ See the [open issues](https://github.com/naufalhakim23/Medicare-GotongRoyong/iss
 
 
 
-<!-- CONTRIBUTING -->
-## Contributing
-
+<!-- References -->
+## References
+* [Diabetes Data Set](https://www.kaggle.com/mathchi/diabetes-data-set/ )
+* [Predictor Risk of Diabetes Mellitus in Indonesia, based on National Health Survey ](https://medic.upm.edu.my/upload/dokumen/2020011612061519_MJMHS_0230.pdf)
+* [Tingkat Pengetahuan Generasi Millennial terhadap Faktor Resiko Diabetes Melitus Tipe 2](https://drive.google.com/file/d/1acqutY0NMTcgI9viY4_ofUkRL8wxu2_O/view?usp=sharing )
 
 <!-- CONTACT -->
-## Contact
+## People behind Medicare
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
+## Android
+* Ryan Fernanda [LinkedIn](https://www.linkedin.com/in/ryan-fernanda-820295199/) - ryanfernanda.official@gmail.com
+* Richard Addyanto [LinkedIn](https://www.linkedin.com/in/richardaddyanto/) - addyantorichard@gmail.com
+## Cloud Computing
+* Ivana Jovita Handoko [LinkedIn](https://www.linkedin.com/in/ivana-handoko/) - c14180082@john.petra.ac.id
+* Baltasario Saga Adipurusa [LinkedIn](https://www.linkedin.com/in/baltasario-saga-adipurusa-632b351b0/) - baltasariosaga@gmail.com
+## Machine Learning
+* Gloria Milenda Jesika Prima [LinkedIn](https://www.linkedin.com/in/gloriamilend/) - gloriamilend@gmail.com
+* Naufal Al Hakim [LinkedIn](https://www.linkedin.com/in/naufal-al-hakim/) - hakimnaufal212@gmail.com
 
 
 <!-- ACKNOWLEDGEMENTS -->
