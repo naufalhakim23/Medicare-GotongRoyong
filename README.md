@@ -65,14 +65,14 @@ medicare, a smart database that let you predict what is going on with your body,
 Major frameworks that used in the project
 * [Tensorflow](https://www.tensorflow.org/)
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+* [Google Cloud Platform](https://cloud.google.com/)
+* [Kotlin](https://kotlinlang.org/)
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
