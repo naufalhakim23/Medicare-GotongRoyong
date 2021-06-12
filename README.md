@@ -42,9 +42,9 @@
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#links">Links</a></li>
+    <li><a href="#people-behind-medicare">People Behind Medicare</a></li>
+    <li><a href="#references">References</a></li>
     <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
@@ -59,7 +59,7 @@
   <img src="https://github.com/naufalhakim23/Medicare-GotongRoyong/blob/main/images/healthdata.jpeg" width="270" height="540">
 </p>
 
-medicare, a smart database that let you predict what is going on with your body, did you Indonesian people still lazy to check their health up to a hospital and even don't know anything about their body until some disease came to attack them, and even if they do where do they save their medical file if something happen should they always have their files with them it is a hassle right?. So we simply help you with a touch your finger and predict what percentage your going to get of illness
+Medicare, a smart database that let you predict what is going on with your body, did you Indonesian people still lazy to check their health up to a hospital and even don't know anything about their body until some disease came to attack them, and even if they do where do they save their medical file if something happens should they always have their files with them it is a hassle right?. So we simply help you with touch your finger and predict what percentage your going to get of illness
 
 ### Built With
 Major frameworks that used in the project
@@ -67,6 +67,7 @@ Major frameworks that used in the project
 * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 * [Google Cloud Platform](https://cloud.google.com/)
 * [Kotlin](https://kotlinlang.org/)
+* [Retrofit](https://square.github.io/retrofit/)
 
 
 
@@ -88,7 +89,13 @@ Major frameworks that used in the project
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Links
+* [APK](https://github.com/naufalhakim23/Medicare-GotongRoyong/releases)
+* [Drive Notebooks](https://drive.google.com/drive/folders/1OemcLo7Qv2JrRlb7irSHoqL2dS73-nB2?usp=sharing)  
+* [Main Notebooks](https://github.com/naufalhakim23/Medicare-GotongRoyong/blob/main/Machine%20Learning/main_project_medicare_v6.ipynb)
+* [ML Deployment](https://github.com/naufalhakim23/Medicare-GotongRoyong/blob/main/Machine%20Learning/diabetes_server.py)
+* [Cloud Computing SQL and API](https://github.com/naufalhakim23/Medicare-GotongRoyong/tree/main/Cloud%20Computing)
+
 
 
 
@@ -107,14 +114,13 @@ See the [open issues](https://github.com/naufalhakim23/Medicare-GotongRoyong/iss
 
 <!-- CONTACT -->
 ## People behind Medicare
-
-## Android
+# Android
 * Ryan Fernanda [LinkedIn](https://www.linkedin.com/in/ryan-fernanda-820295199/) - ryanfernanda.official@gmail.com
 * Richard Addyanto [LinkedIn](https://www.linkedin.com/in/richardaddyanto/) - addyantorichard@gmail.com
-## Cloud Computing
+# Cloud Computing
 * Ivana Jovita Handoko [LinkedIn](https://www.linkedin.com/in/ivana-handoko/) - c14180082@john.petra.ac.id
 * Baltasario Saga Adipurusa [LinkedIn](https://www.linkedin.com/in/baltasario-saga-adipurusa-632b351b0/) - baltasariosaga@gmail.com
-## Machine Learning
+# Machine Learning
 * Gloria Milenda Jesika Prima [LinkedIn](https://www.linkedin.com/in/gloriamilend/) - gloriamilend@gmail.com
 * Naufal Al Hakim [LinkedIn](https://www.linkedin.com/in/naufal-al-hakim/) - hakimnaufal212@gmail.com
 
